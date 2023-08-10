@@ -1,0 +1,29 @@
+# Home {.unnumbered}
+
+This Statistics handout is written for the1st year Pharmacy students as necessary handout for introduction to statistics and data analysis for their research projects. The aim is to understand theoretical, conceptual and practical examples of research data analysis.
+
+Here is the layout of what will be covered during the class:
+
+## **Introduction to statistics:**
+
+1.  Scientific method and design of experiment
+2.  Hypothesis testing, sampling, and random variables
+3.  Normal distribution, T-test, correlation, and ANOVA
+4.  Regression and types of regression
+5.  [Cheatsheet](https://statsandr.com/blog/files/overview-statistical-tests-statsandr.pdf) for deciding what statistical test to use.
+
+## **JMP hands on training:**
+
+1.  Familiarization with the dataset
+2.  Opening files and data formatting
+3.  Visualization of variables (Distribution analyses)
+4.  Single variable tests (Fit Y by X analyses)
+5.  Regression tests (Fit Model analyses)
+
+## Dataset:
+
+We will be using the avandia dataset which compares cardiovascular problems for two types of diabetes medication, Rosiglitazone and Pioglitazone [@graham2010risk]. You can download the dataset:
+
+1.  Click on the link [here](https://vincentarelbundock.github.io/Rdatasets/articles/data.html)
+2.  Type ***avandia*** in the search bar
+3.  Download the csv file

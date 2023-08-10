@@ -1,0 +1,57 @@
+---
+title: "definitions"
+---
+
+**Population:** Refers to every unit in existence
+
+**Sample:** Units we have measured
+
+**Sampling (Simple Random Sampling):** ensures that each member of the population has an equal chance of being picked as a part of a sample.
+
+**Descriptive Statistics:** Used to describe certain aspects of a sample (eg. sample mean is 5.4 etc)
+
+**Inferential Statistics:** Used to make statements about the whole population based on only what we know about the given sample.
+
+**Sampling error:** Difference between statistics inferred from the sample and true population.
+
+The larger the sample, the smaller is the sampling error. Sampling error just refers to the fact that statistics derived from a sample are only estimates of true parameters of the whole population and it has got nothing to do with error during calculation.
+
+**Sampling error of mean** is the difference between sample mean and population mean.
+
+**Measurement Scales:**
+
++---------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+----------------------------------------------------------------+
+| Nominal                                                                               | Ordinal                                                                                                                                        | Interval                                              | Ratio                                                          |
++=======================================================================================+================================================================================================================================================+=======================================================+================================================================+
+| naming and classifying into mutually exclusive and collectively exhaustive categories | ranked according to some criteria. usually impossible to infer different members of two adjacent categories and compare it with other adjacent | order measurements based on distance between them.    | Equality of ratios and equality of intervals may be determined |
+|                                                                                       |                                                                                                                                                |                                                       |                                                                |
+|                                                                                       |                                                                                                                                                | This is the only truly quantitative scale             |                                                                |
++---------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+----------------------------------------------------------------+
+| eg: male-female;                                                                      | eg: socio-economic status - low,medium,high                                                                                                    | eg: 10 to 20 has 10 as interval and so does 30 to 40. |                                                                |
+|                                                                                       |                                                                                                                                                |                                                       |                                                                |
+| well-sick;                                                                            |                                                                                                                                                |                                                       |                                                                |
+|                                                                                       |                                                                                                                                                |                                                       |                                                                |
+| under 65- over 65                                                                     |                                                                                                                                                |                                                       |                                                                |
++---------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+----------------------------------------------------------------+
+
+**Research Study:** A research study is a scientific study of phenomenon of interest. Research studies involve designing sampling protocols, collecting and analyzing data, and providing valid conclusions based on results of analyses.
+
+**Experiment:** Special type of research study in which observations are made after specific manipulations of conditions have been carried out; they provide the foundation for scientific research.
+
+**Ordered array:** from smallest to largest values
+
+Rule of thumb for determining class intervals: No less than 5 and no more than 15 class interval.
+
+width of class intervals = $w=\frac{R}{K}$ ; where $R$ = range i.e. difference between largest and smallest number an $k$ = number of class intervals.
+
+k is determind by sturges's rule
+
+$k=1+1.322(log_{10}n)$
+
+Here,
+
+$n$= number of values in the data
+
+$k$= number of class intervals
+
+**Note:** Relative frequency \~ experimental probability \~ empirical probability

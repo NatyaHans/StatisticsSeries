@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics Series",
+    "section": "",
+    "text": "Home\nThis Statistics handout is written for the1st year Pharmacy students as necessary handout for introduction to statistics and data analysis for their research projects. The aim is to understand theoretical, conceptual and practical examples of research data analysis.\nHere is the layout of what will be covered during the class:"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee (knuth84?) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Graham, David J, Rita Ouellet-Hellstrom, Thomas E MaCurdy, Farzana Ali,\nChristopher Sholley, Christopher Worrall, and Jeffrey A Kelman. 2010.\n“Risk of Acute Myocardial Infarction, Stroke, Heart Failure, and\nDeath in Elderly Medicare Patients Treated with Rosiglitazone or\nPioglitazone.” Jama 304 (4): 411–18."
+  },
+  {
+    "objectID": "index.html#foundational-statistics",
+    "href": "index.html#foundational-statistics",
+    "title": "StatisticsSeries",
+    "section": "Foundational statistics:",
+    "text": "Foundational statistics:\n\nScientific method and design of experiment\nHypothesis testing, sampling, and random variables\nNormal distribution, T-test, correlation, and ANOVA\nRegression and types of regression\n[Cheatsheet](https://statsandr.com/blog/files/overview-statistical-tests-statsandr.pdf) for what test to use when."
+  },
+  {
+    "objectID": "index.html#jmp-hands-on-training",
+    "href": "index.html#jmp-hands-on-training",
+    "title": "Statistics Series",
+    "section": "JMP hands on training:",
+    "text": "JMP hands on training:\n\nFamiliarization with the dataset\nOpening files and data formatting\nVisualization of variables (Distribution analyses)\nSingle variable tests (Fit Y by X analyses)\nRegression tests (Fit Model analyses)"
+  },
+  {
+    "objectID": "index.html#introduction-to-statistics",
+    "href": "index.html#introduction-to-statistics",
+    "title": "Statistics Series",
+    "section": "Introduction to statistics:",
+    "text": "Introduction to statistics:\n\nScientific method and design of experiment\nHypothesis testing, sampling, and random variables\nNormal distribution, T-test, correlation, and ANOVA\nRegression and types of regression\nCheatsheet for deciding what statistical test to use."
+  },
+  {
+    "objectID": "index.html#dataset",
+    "href": "index.html#dataset",
+    "title": "Statistics Series",
+    "section": "Dataset:",
+    "text": "Dataset:\nWe will be using the avandia dataset which compares cardiovascular problems for two types of diabetes medication, Rosiglitazone and Pioglitazone (Graham et al. 2010). You can download the dataset:\n\nClick on the link here\nType avandia in the search bar\nDownload the csv file\n\n\n\n\n\nGraham, David J, Rita Ouellet-Hellstrom, Thomas E MaCurdy, Farzana Ali, Christopher Sholley, Christopher Worrall, and Jeffrey A Kelman. 2010. “Risk of Acute Myocardial Infarction, Stroke, Heart Failure, and Death in Elderly Medicare Patients Treated with Rosiglitazone or Pioglitazone.” Jama 304 (4): 411–18."
+  },
+  {
+    "objectID": "intro.html#scientific-method-and-design-of-experiment",
+    "href": "intro.html#scientific-method-and-design-of-experiment",
+    "title": "1  Introduction",
+    "section": "1.1 Scientific method and design of experiment",
+    "text": "1.1 Scientific method and design of experiment\nProcess by which scientific information is collected, analyzed and reported in order to produce unbiased, replicable and reproducible results to provide an accurate representation of observation.\nSteps to scientific method:\n\nMaking an observation\nFormulating a hypothesis\nDesigning an experiment\nConclusion (which needs to be replicable/reproducible)\n\nAccuracy: Correctness of measurements. It is also called Validity.\nPrecision: Consistency of measurements. It is also called Reliability.\n\n\n\n\n\n\n\n\n\nSample - statistics\nPopulation - parameters\n\n\n\n\nMean\n\\(\\bar{x}\\)\n\\(\\mu\\)\n\n\nStandard Deviation\ns\n𝝈\n\n\nVariance\ns2\n𝝈2\n\n\nSize\nn\nN\n\n\n\nNote: Random Sampling is difficult in biology/real world due to following reasons:\n\nSampling units do not represent natural distinct habitats\nCannot be numbered in advance\nPopulation covers a large area\nHence haphazard sampling method are used which ar assumed to be same as random sampling\n\nRandom Sample ( More technical definition )\n\nSimple Random Sampling\nIf a sample size n is drawn from a population of size N in such a way that every possible sample of size n has the same chance of being selected, the sample of size n has the same chance of being selected, the sample is called a random sample.\n\nwith replacement: every individual member of population is available at each draw\nwithout replacement: one less( or more) individual after each draw\n\nSystematic Random Sampling:\neg. health records, stored in a systematic way. Total number of records needed to be studied are calculated. A random number table is then employed to select the starting point in a file system.\neg. if we have x as the starting point then x+k , x+2k, x+3k can be different record sets where k is an interval used to define the sampling interval. It is not useful for study where you observe a gradient.\n\n\n\n\n\n\n\nID\nData point\n\n\n\n\n1\n24\n\n\n2\n34\n\n\n3\n36\n\n\n4\n34\n\n\n5\n27\n\n\n6\n91\n\n\n7\n16\n\n\n8\n17\n\n\n9\n29\n\n\n10\n20\n\n\n11\n21\n\n\n12\n32\n\n\n\nStratified Random Sampling: When sample units are grouped i.e. the population is partitioned into strata ( which are more similar in nature than other strata), much less variability is observed\n\nStratified systematic sampling\nStratified sampling proportional to size of population in each strata"
+  },
+  {
+    "objectID": "definitions.html",
+    "href": "definitions.html",
+    "title": "3  definitions",
+    "section": "",
+    "text": "Population: Refers to every unit in existence\nSample: Units we have measured\nSampling (Simple Random Sampling): ensures that each member of the population has an equal chance of being picked as a part of a sample.\nDescriptive Statistics: Used to describe certain aspects of a sample (eg. sample mean is 5.4 etc)\nInferential Statistics: Used to make statements about the whole population based on only what we know about the given sample.\nSampling error: Difference between statistics inferred from the sample and true population.\nThe larger the sample, the smaller is the sampling error. Sampling error just refers to the fact that statistics derived from a sample are only estimates of true parameters of the whole population and it has got nothing to do with error during calculation.\nSampling error of mean is the difference between sample mean and population mean.\nMeasurement Scales:\n\n\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\nRatio\n\n\n\n\nnaming and classifying into mutually exclusive and collectively exhaustive categories\nranked according to some criteria. usually impossible to infer different members of two adjacent categories and compare it with other adjacent\norder measurements based on distance between them.\nThis is the only truly quantitative scale\nEquality of ratios and equality of intervals may be determined\n\n\neg: male-female;\nwell-sick;\nunder 65- over 65\neg: socio-economic status - low,medium,high\neg: 10 to 20 has 10 as interval and so does 30 to 40.\n\n\n\n\nResearch Study: A research study is a scientific study of phenomenon of interest. Research studies involve designing sampling protocols, collecting and analyzing data, and providing valid conclusions based on results of analyses.\nExperiment: Special type of research study in which observations are made after specific manipulations of conditions have been carried out; they provide the foundation for scientific research.\nOrdered array: from smallest to largest values\nRule of thumb for determining class intervals: No less than 5 and no more than 15 class interval.\nwidth of class intervals = \\(w=\\frac{R}{K}\\) ; where \\(R\\) = range i.e. difference between largest and smallest number an \\(k\\) = number of class intervals.\nk is determind by sturges’s rule\n\\(k=1+1.322(log_{10}n)\\)\nHere,\n\\(n\\)= number of values in the data\n\\(k\\)= number of class intervals\nNote: Relative frequency ~ experimental probability ~ empirical probability"
+  },
+  {
+    "objectID": "definitions.html#measures-of-central-tendency",
+    "href": "definitions.html#measures-of-central-tendency",
+    "title": "3  definitions",
+    "section": "3.1 Measures of Central Tendency:",
+    "text": "3.1 Measures of Central Tendency:\n\n\n\n\n\n\n\n\nMean\nMedian\nMode\n\n\n\n\n\nodd: \\((n+1)/2\\)\neven: \\((n/2)*(n/1+1)\\)\nMost frequent value\n\n\n\nunique; simple; not affected by extreme values"
+  },
+  {
+    "objectID": "intro.html#measures-of-central-tendency",
+    "href": "intro.html#measures-of-central-tendency",
+    "title": "1  Introduction",
+    "section": "1.2 Measures of Central Tendency:",
+    "text": "1.2 Measures of Central Tendency:\n\n\n\n\n\n\n\n\nMean\nMedian\nMode\n\n\n\n\n\n\n\n\n\n\n\nSample\nPopulation\n\n\n\n\n$\\bar{x} = \\frac{\\sum_{i=1}^n}{n} $\n\\(\\mu = \\frac{\\sum_{i=1}^N}{N}\\)\n\n\n\nodd: \\((n+1)/2\\)\neven: \\((n/2)*(n/1+1)\\)\nMost frequent value\n\n\nunique; simple; affected by extreme values\nunique; simple; not affected by extreme values\n\n\n\n\nSkewness: \\(\\frac{\\sqrt{n}\\sum_{i=1}^n(x_i-\\bar{x})^3}{\\sum_{i=1}^n(x_i-\\bar{x})^{3/2}}\\)\n\n\n\n\n\n\n\nPositive Skewness/ Right skewed/ Right tailed\nNegative Skewness/ Left skewed/ Left tailed\n\n\n\n\nMean &gt; Mode\nMean &lt; Mode\n\n\nskewness &gt; 0\nskewness &lt; 0\n\n\n\n\n\n\n\nDispersion ~ variation ~ spread ~ scatter\nRange= largest data point to smallest data point; \\(R = x_L - x_S\\)\nVariance:\n\n\n\n\n\n\n\nSample\nPopulation\n\n\n\n\n\\(s^2=\\frac{\\sum_{i=1}^n(x_i-\\bar{x})^{2}}{n-1}\\)\n\\(\\sigma^2=\\frac{\\sum_{i=1}^N(x_i-\\mu)^{2}}{N}\\)\n\n\n\nCoefficient of variations:\nC.V = \\(\\frac{s}{x}* (100) \\%\\)\nPercentiles and Quartiles:\nGiven a set of observations \\(x_1\\), \\(x_2\\), \\(x_3\\),…… \\(x_n\\), the \\(p^{th}\\) percentile \\(p\\) is the value of \\(x\\) such that \\(p\\) percent or less of the observations are less than \\(p\\) and \\((100 -p)\\) percent or less of observations are greater than \\(p\\)."
+  }
+]

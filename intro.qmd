@@ -1,0 +1,123 @@
+# Introduction
+
+## Scientific method and design of experiment
+
+Process by which scientific information is collected, analyzed and reported in order to produce unbiased, replicable and reproducible results to provide an accurate representation of observation.
+
+Steps to scientific method:
+
+1.  Making an observation
+2.  Formulating a hypothesis
+3.  Designing an experiment
+4.  Conclusion (which needs to be replicable/reproducible)
+
+**Accuracy:** Correctness of measurements. It is also called Validity.
+
+**Precision:** Consistency of measurements. It is also called Reliability.
+
++--------------------+---------------------+----------------------------+
+|                    | Sample - statistics | Population - parameters    |
++====================+=====================+============================+
+| Mean               | $\bar{x}$           | $\mu$                      |
++--------------------+---------------------+----------------------------+
+| Standard Deviation | s                   | 𝝈                          |
++--------------------+---------------------+----------------------------+
+| Variance           | s^2^                | 𝝈^2^                       |
++--------------------+---------------------+----------------------------+
+| Size               | n                   | N                          |
++--------------------+---------------------+----------------------------+
+
+**Note:** Random Sampling is difficult in biology/real world due to following reasons:
+
+1.  Sampling units do not represent natural distinct habitats
+2.  Cannot be numbered in advance
+3.  Population covers a large area
+4.  Hence haphazard sampling method are used which ar assumed to be same as random sampling
+
+Random Sample ( More technical definition )
+
+1.  **Simple Random Sampling**
+
+    If a sample size n is drawn from a population of size N in such a way that every possible sample of size n has the same chance of being selected, the sample of size n has the same chance of being selected, the sample is called a random sample.
+
+    i.  with replacement: every individual member of population is available at each draw
+    ii. without replacement: one less( or more) individual after each draw
+
+2.  **Systematic Random Sampling:**
+
+    eg. health records, stored in a systematic way. Total number of records needed to be studied are calculated. A random number table is then employed to select the starting point in a file system.
+
+    eg. if we have x as the starting point then x+k , x+2k, x+3k can be different record sets where k is an interval used to define the sampling interval. It is not useful for study where you observe a gradient.
+
+    +------+------------+
+    | ID   | Data point |
+    +======+============+
+    | 1    | 24         |
+    +------+------------+
+    | 2    | 34         |
+    +------+------------+
+    | 3    | 36         |
+    +------+------------+
+    | 4    | 34         |
+    +------+------------+
+    | 5    | 27         |
+    +------+------------+
+    | 6    | 91         |
+    +------+------------+
+    | 7    | 16         |
+    +------+------------+
+    | 8    | 17         |
+    +------+------------+
+    | 9    | 29         |
+    +------+------------+
+    | 10   | 20         |
+    +------+------------+
+    | 11   | 21         |
+    +------+------------+
+    | 12   | 32         |
+    +------+------------+
+
+3.  **Stratified Random Sampling:** When sample units are grouped i.e. the population is partitioned into strata ( which are more similar in nature than other strata), much less variability is observed
+
+    i.  Stratified systematic sampling
+    ii. Stratified sampling proportional to size of population in each strata
+
+## Measures of Central Tendency:
+
++------------------------------------------------------------------------------------+------------------------------------------------+-----------------------+
+| Mean                                                                               | Median                                         | Mode                  |
++====================================================================================+================================================+=======================+
+| +--------------------------------------------+-----------------------------------+ | odd: $(n+1)/2$                                 | Most frequent value   |
+| | Sample                                     | Population                        | |                                                |                       |
+| +============================================+===================================+ | even: $(n/2)*(n/1+1)$                          |                       |
+| | \$\\bar{x} = \\frac{\\sum\_{i=1}\^n}{n} \$ | $\mu = \frac{\sum_{i=1}^N}{N}$    | |                                                |                       |
+| +--------------------------------------------+-----------------------------------+ |                                                |                       |
++------------------------------------------------------------------------------------+------------------------------------------------+-----------------------+
+| unique; simple; affected by extreme values                                         | unique; simple; not affected by extreme values |                       |
++------------------------------------------------------------------------------------+------------------------------------------------+-----------------------+
+
+**Skewness:** $\frac{\sqrt{n}\sum_{i=1}^n(x_i-\bar{x})^3}{\sum_{i=1}^n(x_i-\bar{x})^{3/2}}$
+
+| Positive Skewness/ Right skewed/ Right tailed | Negative Skewness/ Left skewed/ Left tailed |
+|-----------------------------------------------|---------------------------------------------|
+| Mean \> Mode                                  | Mean \< Mode                                |
+| skewness \> 0                                 | skewness \< 0                               |
+|                                               |                                             |
+
+Dispersion \~ variation \~ spread \~ scatter
+
+Range= largest data point to smallest data point; $R = x_L - x_S$
+
+**Variance:**
+
+| Sample                                          | Population                                     |
+|-------------------------------------------------|------------------------------------------------|
+| $s^2=\frac{\sum_{i=1}^n(x_i-\bar{x})^{2}}{n-1}$ | $\sigma^2=\frac{\sum_{i=1}^N(x_i-\mu)^{2}}{N}$ |
+
+**Coefficient of variations:**
+
+C.V = $\frac{s}{x}* (100) \%$
+
+**Percentiles and Quartiles**:
+
+Given a set of observations $x_1$, $x_2$, $x_3$,...... $x_n$, the $p^{th}$ percentile $p$ is the value of $x$ such that $p$ percent or less of the observations are less than $p$ and $(100 -p)$ percent or less of observations are greater than $p$.
